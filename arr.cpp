@@ -45,7 +45,7 @@ int BS( int* begin, int* end, int key ){
  int i = 0;
  int j = (end - begin);	
 int e = 0;
-	while( i < j)
+	while( i =< j)
 	{
 std::cout << e << std::endl;
 		int mid = (i + j) / 2;
